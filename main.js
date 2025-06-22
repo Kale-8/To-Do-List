@@ -66,7 +66,7 @@ const ul = document.querySelector('#list');
         updateCounts();
         task.isCompleted
             ? alertify.success('Task completed')
-            : alertify.error('Task uncompleted');
+            : alertify.error('Task pending');
     };
 
     const deleteTask = (li) => {
